@@ -1,0 +1,20 @@
+{{page-title "Ex1"}}
+<div class="card">
+  <div class="card-header bg-primary text-light">Ex1 : Note Application</div>
+  <Textarea class="form-control" @value={{this.content}} {{on "keypress" update}}></Textarea>
+  <br>
+  <div>
+    <input type="button" class="btn btn-primary btn-lg" {{on "click" save}} value='Sauvegarder'>
+    <input type="button" class="btn btn-secondary btn-lg" {{on "click" efface}} value='Effacer'>
+    <br>
+    {{#if sup50}}
+      <div class="alert alert-primary">Il reste {{this.size}} caractère(s) disponible(s)</div>
+    {{else if inf50sup20}}
+        <div class="alert alert-warning">Il reste {{this.size}} caractère(s) disponible(s)</div>
+    {{else if inf20}}
+      <div class="alert alert-danger">Il reste {{this.size}} caractère(s) disponible(s)</div>
+    {{/if}}
+    <div class="alert alert-info">{{this.style}}</div>
+  </div>
+</div>
+{{outlet}}
