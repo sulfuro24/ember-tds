@@ -34,9 +34,6 @@ export default class Ex1Controller extends Controller {
     return 50 < this.size;
   }
   get inf50sup20() {
-    return 20 < this.size < 50;
-  }
-  get inf20() {
-    return this.size < 20;
+    return 20 < this.size;
   }
 }
