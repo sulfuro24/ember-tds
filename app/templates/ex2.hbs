@@ -1,0 +1,17 @@
+{{page-title "Ex2"}}
+<h1>TD2 Les Services</h1>
+
+<div class="alert alert-primary">Choisissez les éléments à inclure<br>
+  {{plural @model.countActive 'Aucun service actif' 'service actif' 'services actifs'}}
+</div>
+<ul>
+{{#each @model.services as |serv| }}
+  <li class="list-group-item {{if serv.active 'active' ''}}" {{action "toggleActive" serv}}> {{serv.name}}  {{serv.price}}€</li>
+{{/each}}
+</ul>
+<br>
+<div class="alert alert-warning">Cela vous coûtera {{@model.sumActive}} €</div>
+<div class="col text-center">
+  <input type="button" class=" btn-success btn-lg btn-block" value="Valider">
+</div>
+{{outlet}}
