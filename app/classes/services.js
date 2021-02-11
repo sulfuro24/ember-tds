@@ -1,11 +1,11 @@
-
+import { set } from '@ember/object';
+// eslint-disable-next-line ember/no-computed-properties-in-native-classes
 import { computed } from '@ember/object';
 export default class Services {
   services = [];
 
-
   constructor(services) {
-    this.services = services;
+    set(this, 'services', services);
   }
 
   get countActive() {

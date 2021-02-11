@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="468b05f9-6c0b-485d-a6ec-d903aaf46fa9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/classes/services.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/data/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/classes/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/classes/services.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/application.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +52,19 @@
       <workItem from="1611567332993" duration="9877000" />
       <workItem from="1612426087550" duration="1827000" />
       <workItem from="1612427932149" duration="907000" />
-      <workItem from="1612428848512" duration="7665000" />
+      <workItem from="1612428848512" duration="7797000" />
+      <workItem from="1612443483685" duration="1538000" />
+      <workItem from="1612774997373" duration="18000" />
+      <workItem from="1613027132300" duration="1375000" />
     </task>
+    <task id="LOCAL-00001" summary="fin de séance 04/02">
+      <created>1612436625512</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612436625512</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,5 +81,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fin de séance 04/02" />
+    <option name="LAST_COMMIT_MESSAGE" value="fin de séance 04/02" />
   </component>
 </project>
