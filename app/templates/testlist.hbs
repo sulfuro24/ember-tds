@@ -1,0 +1,16 @@
+{{page-title "Testlist"}}
+<table class='table table-dark' >
+  <h3>Contact</h3>
+{{#each @model.contacts as |contact|}}
+  <tr>
+    <td>{{contact.nom}}</td>
+    <td>{{contact.prenom}}</td>
+    <td>{{contact.email}}</td>
+  <button class="fas fa-trash-alt" style="color: #ff6b6b;"></button>
+  <button class="fas fa-pen" style="color: #339af0;"></button>
+  </tr>
+{{/each}}
+
+<LinkTo @route='contacts.add'>Ajouter</LinkTo>
+</table>
+{{outlet}}
