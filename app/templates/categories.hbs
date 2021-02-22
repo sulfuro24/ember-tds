@@ -1,2 +1,6 @@
-{{page-title "Categories"}}
-{{outlet}}
+<BsTab as |tab|>
+{{#each @model.category as |cat|}}
+  <tab.pane @title="cat.name">
+    </tab.pane>
+{{/each}}
+</BsTab>

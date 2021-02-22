@@ -6,8 +6,8 @@ export default class CategoriesAddRoute extends Route {
     return {};
   }
   @action
-  save(category){
-
+  save(category) {
+    let cat = this.store.createRecord('category', category);
+    cat.save();
   }
-
 }

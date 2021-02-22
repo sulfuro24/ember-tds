@@ -1,2 +1,13 @@
 {{page-title "Contacts"}}
+<table>
+  {{#each @model.contact as |contact|}}
+    <tr>
+      <td>{{contact.nom}}</td>
+      <td>{{contact.prenom}}</td>
+      <td>{{contact.email}}</td>
+    </tr>
+  {{/each}}
+
+
+</table>
 {{outlet}}

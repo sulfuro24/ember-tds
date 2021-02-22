@@ -11,21 +11,16 @@ Router.map(function () {
   this.route('step1');
   this.route('testnew');
   this.route('testlist');
-  this.route('contacts', function() {
+  this.route('contacts', function () {
     this.route('add');
-    this.route('update');
+    this.route('update', { path: 'update/:contact_id' });
   });
-  this.route('categories', function() {
+  this.route('categories', function () {
     this.route('add');
-    this.route('update');
-    this.route('contacts', function() {
+    this.route('update', { path: 'update/:contact_id' });
+    this.route('contacts', { path: 'contacts/:contact_id' }, function () {
       this.route('add');
-      this.route('update');
+      this.route('update', { path: 'contacts/update/:contact_id' });
     });
   });
-  this.route('categories.add');
-  this.route('categories.update');
-  this.route('categories.contacts');
-  this.route('categories.contacts.add');
-  this.route('categories.contacts.update');
 });
