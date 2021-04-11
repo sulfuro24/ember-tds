@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="468b05f9-6c0b-485d-a6ec-d903aaf46fa9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/adapters/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/employee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/orderdetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/section.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/timeslot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/abstractroute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/board.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/logout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/products/add.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/sections.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/sections/add-product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/sections/add.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/sections/delete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/sections/edit/.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/serializers/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/serializers/orderdetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/serializers/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/serializers/section.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/user-auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/abstractroute.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/board.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/index.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/logout.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/order.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/products/add.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/sections.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/sections/add-product.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/sections/add.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/sections/delete.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/sections/edit/.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/adapters/application-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/models/employee-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/models/order-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/routes/abstractroute-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/routes/index-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/serializers/application-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/serializers/orderdetail-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/serializers/section-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/services/user-auth-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nYW6is4IYvk7Bf3VHKr3VChH8f" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\33783\ember\tds\node_modules\prettier" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="468b05f9-6c0b-485d-a6ec-d903aaf46fa9" name="Default Changelist" comment="" />
+      <created>1611567330776</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611567330776</updated>
+      <workItem from="1611567332993" duration="9877000" />
+      <workItem from="1612426087550" duration="1827000" />
+      <workItem from="1612427932149" duration="907000" />
+      <workItem from="1612428848512" duration="7797000" />
+      <workItem from="1612443483685" duration="1538000" />
+      <workItem from="1612774997373" duration="18000" />
+      <workItem from="1613027132300" duration="10523000" />
+      <workItem from="1613569266795" duration="106000" />
+      <workItem from="1613569383757" duration="115000" />
+      <workItem from="1613569501051" duration="55000" />
+      <workItem from="1613569575868" duration="250000" />
+      <workItem from="1613569838787" duration="8374000" />
+      <workItem from="1613997993686" duration="8057000" />
+      <workItem from="1615557259586" duration="3708000" />
+      <workItem from="1616071396066" duration="5023000" />
+      <workItem from="1616674255626" duration="4523000" />
+      <workItem from="1616682487571" duration="409000" />
+    </task>
+    <task id="LOCAL-00001" summary="fin de séance 04/02">
+      <created>1612436625512</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612436625512</updated>
+    </task>
+    <task id="LOCAL-00002" summary="xml">
+      <created>1613029131498</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613029131498</updated>
+    </task>
+    <task id="LOCAL-00003" summary="oublie de commit">
+      <created>1613569467104</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613569467104</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fin de séance 17/02">
+      <created>1613578227331</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613578227344</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fin de séance">
+      <created>1613578270947</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613578270947</updated>
+    </task>
+    <task id="LOCAL-00006" summary="reste séance précédente non commit">
+      <created>1613998070896</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613998070896</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ajout category + différente route et leur model">
+      <created>1614000937131</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614000937131</updated>
+    </task>
+    <task id="LOCAL-00008" summary="controller fini, 0.5 pas fini">
+      <created>1614006277092</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614006277092</updated>
+    </task>
+    <task id="LOCAL-00009" summary="reste">
+      <created>1615557442239</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615557442239</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="fin de séance 04/02" />
+    <MESSAGE value="xml" />
+    <MESSAGE value="oublie de commit" />
+    <MESSAGE value="fin de séance 17/02" />
+    <MESSAGE value="fin de séance" />
+    <MESSAGE value="reste séance précédente non commit" />
+    <MESSAGE value="ajout category + différente route et leur model" />
+    <MESSAGE value="controller fini, 0.5 pas fini" />
+    <MESSAGE value="reste" />
+    <option name="LAST_COMMIT_MESSAGE" value="reste" />
+  </component>
+</project>
